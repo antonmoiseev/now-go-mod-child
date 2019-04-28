@@ -1,0 +1,7 @@
+{
+    "name": "now-go-mod-child",
+    "version": 2,
+    "builds": [
+        { "src": "api/handlers/*.go", "use": "@now/go@canary" }
+    ]
+}
